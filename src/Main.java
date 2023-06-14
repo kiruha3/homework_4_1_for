@@ -3,7 +3,7 @@ public class Main {
         //task1();
         //task2();
         //task3();
-        task4();
+        //task4();
         task5();
 
     }
@@ -35,6 +35,8 @@ public class Main {
     }
 
     private static void task5() {
-
+        for (int i = 1904; i <=2096 ; i=i+4) {
+            System.out.println(i+" год является високосным");
+        }
     }
 }
