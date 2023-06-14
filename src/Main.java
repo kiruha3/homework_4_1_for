@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        task1();
-        task2();
+        //task1();
+        //task2();
         task3();
         task4();
         task5();
@@ -21,7 +21,11 @@ public class Main {
     }
 
     private static void task3() {
-
+        for (int i = 0; i <=17 ; i++) {
+            if (i%2==0) {
+                System.out.println(i);
+            }
+        }
     }
 
     private static void task4() {
