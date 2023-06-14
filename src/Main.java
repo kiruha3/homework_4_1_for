@@ -8,7 +8,8 @@ public class Main {
         //task6();
         //task7();
         //task8();
-        task9();
+        //task9();
+        task10();
 
     }
 
@@ -76,6 +77,11 @@ public class Main {
             sumPerYear += perMonth;
             sumPerYear = sumPerYear * monthPercent;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + sumPerYear);
+        }
+    }
+    private static void task10() {
+        for (int i=1; i<=10; i++){
+            System.out.println("2*"+i+"="+2*i);
         }
     }
 }
