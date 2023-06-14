@@ -5,7 +5,8 @@ public class Main {
         //task3();
         //task4();
         //task5();
-        task6();
+        //task6();
+        task7();
 
     }
 
@@ -42,6 +43,11 @@ public class Main {
     }
     private static void task6() {
         for (int i = 7; i <=98 ; i=i+7) {
+            System.out.printf(i+" ");
+        }
+    }
+    private static void task7() {
+        for (int i = 1; i <512 ; i=i+i) {
             System.out.printf(i+" ");
         }
     }
