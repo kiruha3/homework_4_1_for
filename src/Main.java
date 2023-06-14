@@ -6,7 +6,8 @@ public class Main {
         //task4();
         //task5();
         //task6();
-        task7();
+        //task7();
+        task8();
 
     }
 
@@ -49,6 +50,15 @@ public class Main {
     private static void task7() {
         for (int i = 1; i <512 ; i=i+i) {
             System.out.printf(i+" ");
+        }
+    }
+    private static void task8() {
+        int perMonth = 29_000;
+        int sumPerYear = 0;
+        int year = 12;
+        for (int i = 1; i < year ; i++) {
+            sumPerYear+=perMonth;
+            System.out.println("Месяц "+i +", сумма накоплений равна "+sumPerYear);
         }
     }
 }
