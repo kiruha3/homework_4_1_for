@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         //task1();
         //task2();
-        task3();
+        //task3();
         task4();
         task5();
 
@@ -29,8 +29,9 @@ public class Main {
     }
 
     private static void task4() {
-
-
+        for (int i = 10; i >=-10 ; i--) {
+            System.out.println(i);
+        }
     }
 
     private static void task5() {
